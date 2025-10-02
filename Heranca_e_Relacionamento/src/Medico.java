@@ -19,9 +19,6 @@ public abstract class Medico {
 
     @Override
     public String toString() {
-        return "Medico{" +
-                "nome='" + nome + '\'' +
-                ", crm='" + crm + '\'' +
-                '}';
+        return "Médico: " + nome + " (" + crm + ")";
     }
 }
